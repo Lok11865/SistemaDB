@@ -36,7 +36,9 @@
             this.PanelMenu = new System.Windows.Forms.Panel();
             this.PanelContenido = new System.Windows.Forms.Panel();
             this.btnSalir = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.PanelMenu.SuspendLayout();
+            this.PanelContenido.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnProductos
@@ -100,6 +102,7 @@
             // 
             // PanelContenido
             // 
+            this.PanelContenido.Controls.Add(this.textBox1);
             this.PanelContenido.Location = new System.Drawing.Point(238, 12);
             this.PanelContenido.Name = "PanelContenido";
             this.PanelContenido.Size = new System.Drawing.Size(823, 522);
@@ -114,6 +117,13 @@
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(279, 117);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(327, 22);
+            this.textBox1.TabIndex = 0;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -127,6 +137,8 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistema de Inventario";
             this.PanelMenu.ResumeLayout(false);
+            this.PanelContenido.ResumeLayout(false);
+            this.PanelContenido.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -141,6 +153,7 @@
         private System.Windows.Forms.Panel PanelMenu;
         private System.Windows.Forms.Panel PanelContenido;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
