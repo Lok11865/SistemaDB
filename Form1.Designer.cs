@@ -33,10 +33,13 @@
             this.btnVentas = new System.Windows.Forms.Button();
             this.btnReportes = new System.Windows.Forms.Button();
             this.btnCategorias = new System.Windows.Forms.Button();
-            this.btnSalir = new System.Windows.Forms.Button();
             this.PanelMenu = new System.Windows.Forms.Panel();
             this.PanelContenido = new System.Windows.Forms.Panel();
+            this.btnSalir = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.PanelMenu.SuspendLayout();
+            this.PanelContenido.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnProductos
@@ -86,15 +89,6 @@
             this.btnCategorias.Text = "Categorias";
             this.btnCategorias.UseVisualStyleBackColor = true;
             // 
-            // btnSalir
-            // 
-            this.btnSalir.Location = new System.Drawing.Point(29, 469);
-            this.btnSalir.Name = "btnSalir";
-            this.btnSalir.Size = new System.Drawing.Size(193, 23);
-            this.btnSalir.TabIndex = 5;
-            this.btnSalir.Text = "Salir";
-            this.btnSalir.UseVisualStyleBackColor = true;
-            // 
             // PanelMenu
             // 
             this.PanelMenu.Controls.Add(this.btnProductos);
@@ -109,10 +103,39 @@
             // 
             // PanelContenido
             // 
+            this.PanelContenido.Controls.Add(this.button2);
+            this.PanelContenido.Controls.Add(this.button1);
             this.PanelContenido.Location = new System.Drawing.Point(238, 12);
             this.PanelContenido.Name = "PanelContenido";
             this.PanelContenido.Size = new System.Drawing.Size(823, 522);
             this.PanelContenido.TabIndex = 7;
+            // 
+            // btnSalir
+            // 
+            this.btnSalir.Location = new System.Drawing.Point(29, 469);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(193, 23);
+            this.btnSalir.TabIndex = 5;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(128, 135);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(405, 128);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(53, 301);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(534, 98);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -127,6 +150,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sistema de Inventario";
             this.PanelMenu.ResumeLayout(false);
+            this.PanelContenido.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -138,9 +162,11 @@
         private System.Windows.Forms.Button btnVentas;
         private System.Windows.Forms.Button btnReportes;
         private System.Windows.Forms.Button btnCategorias;
-        private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Panel PanelMenu;
         private System.Windows.Forms.Panel PanelContenido;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button button2;
     }
 }
 
