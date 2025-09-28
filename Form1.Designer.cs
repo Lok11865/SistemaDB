@@ -39,6 +39,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.PanelMenu.SuspendLayout();
             this.PanelContenido.SuspendLayout();
             this.SuspendLayout();
@@ -104,6 +105,7 @@
             // 
             // PanelContenido
             // 
+            this.PanelContenido.Controls.Add(this.textBox1);
             this.PanelContenido.Controls.Add(this.button3);
             this.PanelContenido.Controls.Add(this.button2);
             this.PanelContenido.Controls.Add(this.button1);
@@ -148,6 +150,13 @@
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(127, 453);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(534, 22);
+            this.textBox1.TabIndex = 3;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -162,6 +171,7 @@
             this.Text = "Sistema de Inventario";
             this.PanelMenu.ResumeLayout(false);
             this.PanelContenido.ResumeLayout(false);
+            this.PanelContenido.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -179,6 +189,7 @@
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 
