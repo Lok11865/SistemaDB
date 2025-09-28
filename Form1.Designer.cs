@@ -38,6 +38,7 @@
             this.btnSalir = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.PanelMenu.SuspendLayout();
             this.PanelContenido.SuspendLayout();
             this.SuspendLayout();
@@ -103,6 +104,7 @@
             // 
             // PanelContenido
             // 
+            this.PanelContenido.Controls.Add(this.button3);
             this.PanelContenido.Controls.Add(this.button2);
             this.PanelContenido.Controls.Add(this.button1);
             this.PanelContenido.Location = new System.Drawing.Point(238, 12);
@@ -137,6 +139,15 @@
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(94, 47);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(500, 39);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -167,6 +178,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnSalir;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
 
